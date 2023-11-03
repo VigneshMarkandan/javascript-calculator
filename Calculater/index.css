@@ -1,0 +1,46 @@
+body{ 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+    background-color: bisque;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    width: 232px;
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+button:hover{
+    background-color: cadetblue;
+}
+.show{ 
+    
+    width: 256px;
+    height: 20px;
+    background-color: aqua;
+    font-size: large;
+    text-align: end;
+    color: black;
+    padding: 4px;
+
+    
+
+}
+#clr{
+    background-color:color-mix(in hsl shorter hue, 
+    percentage, color percentage)
+}
+button{
+    background-color: rgb(198, 70, 198);
+    border: none;
+    color: rgb(3, 1, 0);
+    font-size: large;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 2px;
+}
