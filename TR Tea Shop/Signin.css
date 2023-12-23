@@ -1,0 +1,57 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.SignIn{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 22px;
+    right: 100px;
+    padding: 10px;
+}
+.icon{
+    width: 33px;
+    height: 35px;
+    position: absolute;
+    top: 14px;
+    right: 37px;
+    padding: 5px;
+}
+
+.layer{
+    width: 100vw;
+    height: 100dvh;
+    position: fixed;
+   
+    background-color: rgba(167, 165, 165,0.5);
+    
+    top:0;
+
+}
+.form{
+    width: 30vw;
+    background-color: white;
+    aspect-ratio: 16/12;
+    margin: auto;
+    margin-top: calc(70dvh - 35dvh);
+}
+
+#tr{
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 0.4vw;
+    font-size: 1vw;
+    margin: 0.5vw 2vw ;
+}
+#x{
+    position: absolute;
+    font-size: 20px;
+ 
+bottom: 58%;
+right:37%
+
+}
